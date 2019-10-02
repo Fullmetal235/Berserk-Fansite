@@ -12,7 +12,6 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
-const express = require('express')
 
 const server = require('./server.js')
 
