@@ -15,6 +15,7 @@ Go code!
 require('dotenv').config()
 const server = require('./server.js')
 
-const port = 8001
-
-server.listen(port,  () => console.log(`\nlistening on port ${port}\n`))
+const port = process.env.PORT || 8001;
+server.listen(port, () => {
+    console.log(`Server listening on port ${port}!`)
+})
